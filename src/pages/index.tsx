@@ -1,8 +1,7 @@
-// const foo = 'test'
-
 export default function Home({ title = 'React avançado' }) {
-    return (
-        <div>{title}</div>
-    )
+	return (
+		<div>
+			<h1>{title}</h1>
+		</div>
+	)
 }
-    
